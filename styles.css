@@ -46,15 +46,15 @@ body.theme-dark {
 }
 
 .markdown-source-view.mod-cm6 .cm-table-widget th,
-.markdown-reading-view .el-table thead th {
+.markdown-reading-view .el-table thead tr > th {
     position: sticky;
     top: calc(-1 * var(--file-margins-top, 1px) - 1px); /* Handle border gap */
     z-index: 1000;
 }
 
 .markdown-source-view.mod-cm6 .cm-table-widget th,
-.markdown-reading-view .el-table thead th,
-table.header-floating thead th {
+.markdown-reading-view .el-table thead tr > th,
+table.header-floating thead tr > th {
     background-color: var(
         --sticky-table-headers-floating-table-header-background,
         var(--background-secondary)
